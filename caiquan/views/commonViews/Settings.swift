@@ -11,13 +11,9 @@ struct Settings: View {
     @Binding var darkMode:Bool
     var body: some View {
         Button{
-            
-        }label: {
-            Button{
-                darkMode.toggle()
-            } label: {
-                Image(systemName: darkMode ? "sun.max.fill" : "moon.fill").font(.system(.headline, design: .rounded))
-            }
+            darkMode.toggle()
+        } label: {
+            Image(systemName: darkMode ? "sun.max.fill" : "moon.fill").font(.system(.headline, design: .rounded))
         }
     }
 }

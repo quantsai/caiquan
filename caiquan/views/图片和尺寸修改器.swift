@@ -23,7 +23,7 @@ struct NormalModifierView: View {
                 Text("保持比例，填满区域 .scaledToFill").foregroundColor(.blue).font(.footnote)
                 HStack{
                     
-                    Image("2")
+                    Image("noodles")
                         .resizable()
                         .scaledToFill()
                 }.frame(width: 100,height: 100).border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
@@ -32,7 +32,7 @@ struct NormalModifierView: View {
                 // 保持比例，图片完全显示，多余的部分留空
                 Text("保持比例，图片完全显示 .scaledToFit").foregroundColor(.blue).font(.footnote)
                 HStack{
-                    Image("2")
+                    Image("noodles")
                         .resizable()
                         .scaledToFit()
                 }.frame(width: 100,height: 100).border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
@@ -41,14 +41,14 @@ struct NormalModifierView: View {
                 
                 // 拉伸长宽比为5， 使用fit方式填充
                 Text("拉伸长宽比为5， 使用fit方式填充 .aspectRatio").foregroundColor(.blue).font(.footnote)
-                Image("2")
+                Image("noodles")
                     .resizable()
                     .aspectRatio(5, contentMode: .fit)
                 
                 
                 // 蒙版
                 Text("蒙版 .clipShape").foregroundColor(.blue).font(.footnote)
-                Image("2")
+                Image("noodles")
                     .resizable()
                     .scaledToFit()
                     .scaleEffect(1)
@@ -92,7 +92,7 @@ struct NormalModifierView: View {
             // 覆盖
             Divider()
             Text("覆盖 .overlay").foregroundColor(.blue).font(.footnote)
-            Image("2")
+            Image("noodles")
                 .resizable()
                 .scaleEffect(0.5)
                 .aspectRatio(contentMode: .fit)

@@ -96,7 +96,7 @@ struct AnimationView: View {
                 .frame(width: 90, height: 90)
                 .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
                 .rotationEffect(.degrees(-90))
-                .animation(.easeInOut(duration:  0.5))
+//                .animation(.easeInOut(duration:  0.5))
                 
             
             

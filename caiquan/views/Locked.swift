@@ -6,13 +6,28 @@
 //
 
 import SwiftUI
+import LocalAuthentication
 
 struct Locked: View {
+    
+    @Binding var locked:Bool
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button("点击验证"){
+            authorize{ result in
+                DispatchQueue.main.async {
+                    locked = !result
+                }
+            }
+        }
     }
+    
+    
+    
 }
 
 #Preview {
-    Locked()
+    @State var locked = false;
+    return Locked(locked: $locked)
 }

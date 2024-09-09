@@ -9,7 +9,18 @@ import SwiftUI
 
 struct Route: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        
+        TabView{
+            
+            Examples()
+                .tabItem { Label("Note", systemImage: "note.text") }
+            
+            
+            Privacy()
+                .tabItem { Label("privacy", systemImage: "note.text") }        
+
+        }
     }
 }
 

@@ -8,11 +8,25 @@
 import SwiftUI
 
 struct RoundButton: View {
+    let text:String
+    let image: String
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack{
+            Image(systemName: image)
+            Text(text)
+        }
+        .font(.headline)
+        .padding(.horizontal, 10)
+        .padding(.vertical,5)
+        .foregroundColor(.white)
+        .background(Color.accentColor)
+        .cornerRadius(10)
+        .shadow(radius: 3)
     }
 }
 
 #Preview {
-    RoundButton()
+    RoundButton(text: "button", image: "square.and.pencil")
 }

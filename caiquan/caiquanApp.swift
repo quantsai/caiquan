@@ -6,12 +6,31 @@
 //
 
 import SwiftUI
+import LocalAuthentication
 
 @main
 struct caiquanApp: App {
+    
+    
+//    let motionManager = MotionManager()
+    @State var locked = false;
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Group{
+                if locked {
+                    Locked(locked: $locked)
+                }else {
+                    Route()
+                }
+            }
+            .onAppear{
+//                authorize{ result in
+//                    DispatchQueue.main.async {
+//                        locked = !result
+//                    }
+//                }
+            }
         }
     }
 }

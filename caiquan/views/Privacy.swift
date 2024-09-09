@@ -8,7 +8,7 @@
 import SwiftUI
 import BetterSafariView
 
-struct PrivacyDoc: View {
+struct Privacy: View {
     
     @State private var presentingSafariView = false;
     
@@ -46,5 +46,5 @@ struct PrivacyDoc: View {
 }
 
 #Preview {
-    PrivacyDoc()
+    Privacy()
 }

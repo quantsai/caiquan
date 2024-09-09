@@ -8,12 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		28C97C9A2C8ACF45009F8680 /* caiquanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97C992C8ACF45009F8680 /* caiquanApp.swift */; };
-		28C97C9C2C8ACF45009F8680 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97C9B2C8ACF45009F8680 /* ContentView.swift */; };
 		28C97C9E2C8ACF46009F8680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C97C9D2C8ACF46009F8680 /* Assets.xcassets */; };
 		28C97CA12C8ACF46009F8680 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C97CA02C8ACF46009F8680 /* Preview Assets.xcassets */; };
 		28C97CAB2C8ACF46009F8680 /* caiquanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97CAA2C8ACF46009F8680 /* caiquanTests.swift */; };
 		28C97CB52C8ACF46009F8680 /* caiquanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97CB42C8ACF46009F8680 /* caiquanUITests.swift */; };
 		28C97CB72C8ACF46009F8680 /* caiquanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97CB62C8ACF46009F8680 /* caiquanUITestsLaunchTests.swift */; };
+		28C97CC82C8AE1AA009F8680 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97CC72C8AE1AA009F8680 /* File.swift */; };
+		28C97CCA2C8AE1DB009F8680 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97CC92C8AE1DB009F8680 /* Route.swift */; };
+		28C97CCC2C8AE246009F8680 /* Locked.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97CCB2C8AE246009F8680 /* Locked.swift */; };
+		28C97CCE2C8AE29B009F8680 /* Examples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97CCD2C8AE29B009F8680 /* Examples.swift */; };
+		28C97CD22C8AE2DB009F8680 /* Privacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97CD12C8AE2DB009F8680 /* Privacy.swift */; };
+		28C97CD52C8AE30A009F8680 /* BetterSafariView in Frameworks */ = {isa = PBXBuildFile; productRef = 28C97CD42C8AE30A009F8680 /* BetterSafariView */; };
+		28C97CD82C8AE365009F8680 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97CD72C8AE365009F8680 /* RoundButton.swift */; };
+		28C97CDC2C8AE53B009F8680 /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97CDB2C8AE53B009F8680 /* Articles.swift */; };
+		28C97CDE2C8AE55B009F8680 /* ArticleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97CDD2C8AE55B009F8680 /* ArticleData.swift */; };
+		28C97CE02C8AE5CE009F8680 /* ImagePickerView in Frameworks */ = {isa = PBXBuildFile; productRef = 28C97CDF2C8AE5CE009F8680 /* ImagePickerView */; };
+		28C97CE32C8AEB04009F8680 /* BasicViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97CE22C8AEB04009F8680 /* BasicViews.swift */; };
+		28C97CE52C8AF025009F8680 /* ControlViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97CE42C8AF025009F8680 /* ControlViews.swift */; };
+		28C97CE72C8AF6D4009F8680 /* 层级.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97CE62C8AF6D4009F8680 /* 层级.swift */; };
+		28C97CE92C8AF736009F8680 /* 列表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97CE82C8AF736009F8680 /* 列表.swift */; };
+		28C97CEB2C8AFBBE009F8680 /* 文本修改器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97CEA2C8AFBBE009F8680 /* 文本修改器.swift */; };
+		28C97CED2C8AFC8B009F8680 /* 排版修改器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97CEC2C8AFC8B009F8680 /* 排版修改器.swift */; };
+		28C97CEF2C8AFCB9009F8680 /* 排版修改器练习.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97CEE2C8AFCB9009F8680 /* 排版修改器练习.swift */; };
+		28C97CF12C8AFCE6009F8680 /* 图片和尺寸修改器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97CF02C8AFCE6009F8680 /* 图片和尺寸修改器.swift */; };
+		28C97CF32C8AFD55009F8680 /* 颜色修改器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97CF22C8AFD55009F8680 /* 颜色修改器.swift */; };
+		28C97CF52C8AFD8A009F8680 /* 自定义修改器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97CF42C8AFD8A009F8680 /* 自定义修改器.swift */; };
+		28C97CF72C8AFDB1009F8680 /* 手势.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97CF62C8AFDB1009F8680 /* 手势.swift */; };
+		28C97CF92C8AFDDE009F8680 /* 动画.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97CF82C8AFDDE009F8680 /* 动画.swift */; };
+		28C97CFB2C8AFE10009F8680 /* 数据流.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97CFA2C8AFE10009F8680 /* 数据流.swift */; };
+		28C97CFD2C8AFE30009F8680 /* 状态管理.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97CFC2C8AFE30009F8680 /* 状态管理.swift */; };
+		28C97CFF2C8AFF1D009F8680 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C97CFE2C8AFF1D009F8680 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +60,6 @@
 /* Begin PBXFileReference section */
 		28C97C962C8ACF45009F8680 /* caiquan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = caiquan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C97C992C8ACF45009F8680 /* caiquanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caiquanApp.swift; sourceTree = "<group>"; };
-		28C97C9B2C8ACF45009F8680 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		28C97C9D2C8ACF46009F8680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28C97CA02C8ACF46009F8680 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		28C97CA62C8ACF46009F8680 /* caiquanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = caiquanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +68,30 @@
 		28C97CB42C8ACF46009F8680 /* caiquanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caiquanUITests.swift; sourceTree = "<group>"; };
 		28C97CB62C8ACF46009F8680 /* caiquanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caiquanUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		28C97CC32C8AD1CF009F8680 /* caiquan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = caiquan.entitlements; sourceTree = "<group>"; };
+		28C97CC42C8AE143009F8680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		28C97CC72C8AE1AA009F8680 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		28C97CC92C8AE1DB009F8680 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		28C97CCB2C8AE246009F8680 /* Locked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locked.swift; sourceTree = "<group>"; };
+		28C97CCD2C8AE29B009F8680 /* Examples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Examples.swift; sourceTree = "<group>"; };
+		28C97CD12C8AE2DB009F8680 /* Privacy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Privacy.swift; sourceTree = "<group>"; };
+		28C97CD72C8AE365009F8680 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		28C97CDB2C8AE53B009F8680 /* Articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
+		28C97CDD2C8AE55B009F8680 /* ArticleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleData.swift; sourceTree = "<group>"; };
+		28C97CE22C8AEB04009F8680 /* BasicViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicViews.swift; sourceTree = "<group>"; };
+		28C97CE42C8AF025009F8680 /* ControlViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlViews.swift; sourceTree = "<group>"; };
+		28C97CE62C8AF6D4009F8680 /* 层级.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "层级.swift"; sourceTree = "<group>"; };
+		28C97CE82C8AF736009F8680 /* 列表.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "列表.swift"; sourceTree = "<group>"; };
+		28C97CEA2C8AFBBE009F8680 /* 文本修改器.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "文本修改器.swift"; sourceTree = "<group>"; };
+		28C97CEC2C8AFC8B009F8680 /* 排版修改器.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "排版修改器.swift"; sourceTree = "<group>"; };
+		28C97CEE2C8AFCB9009F8680 /* 排版修改器练习.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "排版修改器练习.swift"; sourceTree = "<group>"; };
+		28C97CF02C8AFCE6009F8680 /* 图片和尺寸修改器.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "图片和尺寸修改器.swift"; sourceTree = "<group>"; };
+		28C97CF22C8AFD55009F8680 /* 颜色修改器.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "颜色修改器.swift"; sourceTree = "<group>"; };
+		28C97CF42C8AFD8A009F8680 /* 自定义修改器.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "自定义修改器.swift"; sourceTree = "<group>"; };
+		28C97CF62C8AFDB1009F8680 /* 手势.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "手势.swift"; sourceTree = "<group>"; };
+		28C97CF82C8AFDDE009F8680 /* 动画.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "动画.swift"; sourceTree = "<group>"; };
+		28C97CFA2C8AFE10009F8680 /* 数据流.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "数据流.swift"; sourceTree = "<group>"; };
+		28C97CFC2C8AFE30009F8680 /* 状态管理.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "状态管理.swift"; sourceTree = "<group>"; };
+		28C97CFE2C8AFF1D009F8680 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +99,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28C97CD52C8AE30A009F8680 /* BetterSafariView in Frameworks */,
+				28C97CE02C8AE5CE009F8680 /* ImagePickerView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +124,9 @@
 		28C97C8D2C8ACF45009F8680 = {
 			isa = PBXGroup;
 			children = (
-				28C97C982C8ACF45009F8680 /* caiquan */,
-				28C97CA92C8ACF46009F8680 /* caiquanTests */,
 				28C97CB32C8ACF46009F8680 /* caiquanUITests */,
+				28C97CA92C8ACF46009F8680 /* caiquanTests */,
+				28C97C982C8ACF45009F8680 /* caiquan */,
 				28C97C972C8ACF45009F8680 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,11 +144,13 @@
 		28C97C982C8ACF45009F8680 /* caiquan */ = {
 			isa = PBXGroup;
 			children = (
-				28C97CC32C8AD1CF009F8680 /* caiquan.entitlements */,
-				28C97C992C8ACF45009F8680 /* caiquanApp.swift */,
-				28C97C9B2C8ACF45009F8680 /* ContentView.swift */,
-				28C97C9D2C8ACF46009F8680 /* Assets.xcassets */,
 				28C97C9F2C8ACF46009F8680 /* Preview Content */,
+				28C97CC62C8AE189009F8680 /* utils */,
+				28C97CC42C8AE143009F8680 /* Info.plist */,
+				28C97CC32C8AD1CF009F8680 /* caiquan.entitlements */,
+				28C97C9D2C8ACF46009F8680 /* Assets.xcassets */,
+				28C97C992C8ACF45009F8680 /* caiquanApp.swift */,
+				28C97CC52C8AE17B009F8680 /* views */,
 			);
 			path = caiquan;
 			sourceTree = "<group>";
@@ -129,6 +180,59 @@
 			path = caiquanUITests;
 			sourceTree = "<group>";
 		};
+		28C97CC52C8AE17B009F8680 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				28C97CD62C8AE343009F8680 /* commonViews */,
+				28C97CC92C8AE1DB009F8680 /* Route.swift */,
+				28C97CCB2C8AE246009F8680 /* Locked.swift */,
+				28C97CCD2C8AE29B009F8680 /* Examples.swift */,
+				28C97CDA2C8AE4CC009F8680 /* Articles */,
+				28C97CD12C8AE2DB009F8680 /* Privacy.swift */,
+				28C97CE22C8AEB04009F8680 /* BasicViews.swift */,
+				28C97CE42C8AF025009F8680 /* ControlViews.swift */,
+				28C97CE62C8AF6D4009F8680 /* 层级.swift */,
+				28C97CE82C8AF736009F8680 /* 列表.swift */,
+				28C97CEA2C8AFBBE009F8680 /* 文本修改器.swift */,
+				28C97CEC2C8AFC8B009F8680 /* 排版修改器.swift */,
+				28C97CEE2C8AFCB9009F8680 /* 排版修改器练习.swift */,
+				28C97CF02C8AFCE6009F8680 /* 图片和尺寸修改器.swift */,
+				28C97CF22C8AFD55009F8680 /* 颜色修改器.swift */,
+				28C97CF42C8AFD8A009F8680 /* 自定义修改器.swift */,
+				28C97CF62C8AFDB1009F8680 /* 手势.swift */,
+				28C97CF82C8AFDDE009F8680 /* 动画.swift */,
+				28C97CFA2C8AFE10009F8680 /* 数据流.swift */,
+				28C97CFC2C8AFE30009F8680 /* 状态管理.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		28C97CC62C8AE189009F8680 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				28C97CC72C8AE1AA009F8680 /* File.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		28C97CD62C8AE343009F8680 /* commonViews */ = {
+			isa = PBXGroup;
+			children = (
+				28C97CFE2C8AFF1D009F8680 /* Settings.swift */,
+				28C97CD72C8AE365009F8680 /* RoundButton.swift */,
+			);
+			path = commonViews;
+			sourceTree = "<group>";
+		};
+		28C97CDA2C8AE4CC009F8680 /* Articles */ = {
+			isa = PBXGroup;
+			children = (
+				28C97CDB2C8AE53B009F8680 /* Articles.swift */,
+				28C97CDD2C8AE55B009F8680 /* ArticleData.swift */,
+			);
+			path = Articles;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +249,10 @@
 			dependencies = (
 			);
 			name = caiquan;
+			packageProductDependencies = (
+				28C97CD42C8AE30A009F8680 /* BetterSafariView */,
+				28C97CDF2C8AE5CE009F8680 /* ImagePickerView */,
+			);
 			productName = caiquan;
 			productReference = 28C97C962C8ACF45009F8680 /* caiquan.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +325,10 @@
 				Base,
 			);
 			mainGroup = 28C97C8D2C8ACF45009F8680;
+			packageReferences = (
+				28C97CD32C8AE30A009F8680 /* XCRemoteSwiftPackageReference "BetterSafariView" */,
+				28C97CD92C8AE3EA009F8680 /* XCRemoteSwiftPackageReference "ImagePickerView" */,
+			);
 			productRefGroup = 28C97C972C8ACF45009F8680 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +371,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28C97C9C2C8ACF45009F8680 /* ContentView.swift in Sources */,
+				28C97CE72C8AF6D4009F8680 /* 层级.swift in Sources */,
+				28C97CF72C8AFDB1009F8680 /* 手势.swift in Sources */,
+				28C97CF12C8AFCE6009F8680 /* 图片和尺寸修改器.swift in Sources */,
+				28C97CD82C8AE365009F8680 /* RoundButton.swift in Sources */,
+				28C97CD22C8AE2DB009F8680 /* Privacy.swift in Sources */,
+				28C97CDE2C8AE55B009F8680 /* ArticleData.swift in Sources */,
+				28C97CEF2C8AFCB9009F8680 /* 排版修改器练习.swift in Sources */,
+				28C97CED2C8AFC8B009F8680 /* 排版修改器.swift in Sources */,
+				28C97CE52C8AF025009F8680 /* ControlViews.swift in Sources */,
+				28C97CF92C8AFDDE009F8680 /* 动画.swift in Sources */,
+				28C97CE92C8AF736009F8680 /* 列表.swift in Sources */,
+				28C97CCC2C8AE246009F8680 /* Locked.swift in Sources */,
+				28C97CDC2C8AE53B009F8680 /* Articles.swift in Sources */,
+				28C97CFB2C8AFE10009F8680 /* 数据流.swift in Sources */,
+				28C97CE32C8AEB04009F8680 /* BasicViews.swift in Sources */,
+				28C97CCA2C8AE1DB009F8680 /* Route.swift in Sources */,
+				28C97CC82C8AE1AA009F8680 /* File.swift in Sources */,
+				28C97CCE2C8AE29B009F8680 /* Examples.swift in Sources */,
+				28C97CFF2C8AFF1D009F8680 /* Settings.swift in Sources */,
+				28C97CEB2C8AFBBE009F8680 /* 文本修改器.swift in Sources */,
+				28C97CF52C8AFD8A009F8680 /* 自定义修改器.swift in Sources */,
+				28C97CFD2C8AFE30009F8680 /* 状态管理.swift in Sources */,
 				28C97C9A2C8ACF45009F8680 /* caiquanApp.swift in Sources */,
+				28C97CF32C8AFD55009F8680 /* 颜色修改器.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,8 +562,7 @@
 				DEVELOPMENT_TEAM = 4U4ADU3F9S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Q;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_FILE = caiquan/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -461,8 +594,7 @@
 				DEVELOPMENT_TEAM = 4U4ADU3F9S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Q;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_FILE = caiquan/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -598,6 +730,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		28C97CD32C8AE30A009F8680 /* XCRemoteSwiftPackageReference "BetterSafariView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stleamist/BetterSafariView";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		28C97CD92C8AE3EA009F8680 /* XCRemoteSwiftPackageReference "ImagePickerView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ralfebert/ImagePickerView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		28C97CD42C8AE30A009F8680 /* BetterSafariView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 28C97CD32C8AE30A009F8680 /* XCRemoteSwiftPackageReference "BetterSafariView" */;
+			productName = BetterSafariView;
+		};
+		28C97CDF2C8AE5CE009F8680 /* ImagePickerView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 28C97CD92C8AE3EA009F8680 /* XCRemoteSwiftPackageReference "ImagePickerView" */;
+			productName = ImagePickerView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 28C97C8E2C8ACF45009F8680 /* Project object */;
 }
